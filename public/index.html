@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/css/style.css">
+</head>
+<body class="index">
+    <div class="container">
+        <img id="img1" src="../assets/gif/giphy_2.gif" alt="Molang dan Ducky 1">
+        <img id="img2" src="../assets/gif/giphy_1.gif" alt="Molang dan Ducky 1" style="display: none;">
+        <img id="img3" src="../assets/gif/giphy_3.gif" alt="Molang dan Ducky 1" style="display: none;">
+        <div id="img4" style="display: none;">
+            <img src="../assets/gif/giphy_6.gif" alt="Molang dan Ducky 1">
+            <h1>Loading...</h1>
+        </div>
+        <img id="img5" src="../assets/gif/giphy_4.gif" alt="Molang dan Ducky 1" style="display: none;">
+        <img id="img6" src="../assets/gif/giphy_5.gif" alt="Molang dan Ducky 1" style="display: none;">
+    
+        <!-- Bubble untuk Molang -->
+        <div id="bubbleMolang" class="bubble" style="top: -60px; left: 200px;">
+          Halo, kenalin nama aku Molang...
+        </div>
+    
+        <!-- Bubble untuk Ducky -->
+        <div id="bubbleDucky" class="bubble ducky" style="top: 55px; left: -30px;">
+          Halo, kenalin nama aku Ducky....
+        </div>
+
+        <!-- Bubble untuk All -->
+        <div id="bubbleAll" class="bubble" style="top: -30px; left: 25px;">
+            Kita adalah 2 sahabat sejati...
+        </div>
+
+        <!-- Bubble untuk All 2-->
+        <div id="bubbleAll2" class="bubble" style="top: -30px; left: 25px;">
+            Kita kan udah kenalan nih...
+            <br> Sekarang kenalin diri kamu dong....
+        </div>
+
+        <!-- Bubble untuk All 3-->
+        <div id="bubbleAll3" class="bubble" style="top: -30px; left: 25px;">
+            Halo <p id="output"></p> Salam kenal ya...
+        </div>
+
+        <!-- Bubble untuk All 4-->
+        <div id="bubbleAll4" class="bubble" style="top: -30px; left: 25px;">
+            Btw kita punya sesuatu nih buat kamu....
+            Mau tau ngga????
+        </div>
+
+        <!-- Bubble untuk All 5-->
+        <div id="bubbleAll5" class="bubble" style="top: -30px; left: 25px;">
+            Tunggu bentar ya....
+        </div>
+
+        <!-- Bubble untuk All Deny 1-->
+        <div id="bubbleAllDeny1" class="bubble" style="top: -30px; left: 25px;">
+            Ihh.... Masa gamau sih...
+        </div>
+
+        <!-- Bubble untuk All Deny 2-->
+        <div id="bubbleAllDeny2" class="bubble" style="top: -30px; left: 25px;">
+            Mau dongg......
+        </div>
+
+        <div id="YesNoBtn" class="yes-no-btn" style="display: none;">
+            <button id="btnMau" type="button" style="background-color: lightgreen;" disabled>Mau</button>
+            <button id="btnGak" type="button" style="background-color: lightcoral;" disabled>Gak</button>
+        </div>
+        
+        <div id="formNama" class="form-nama">
+            <form action="" method="get">
+                <input type="text" id="nama" placeholder="Masukkan nama kamu disini" required disabled>
+                <button id="submit" type="submit" disabled>submit</button>
+            </form>
+        </div>
+    </div>
+
+    <audio id="music1" src="../assets/sound/ukulele-joyful-cute.mp3" muted></audio>
+
+    <script src="../src/js/script.js"></script>
+</body>
+</html>
